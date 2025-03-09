@@ -1,0 +1,25 @@
+@font-face {
+    font-family: metalFont;
+    src: url(/fonts/MetalMania-Regular.ttf);
+}
+
+:root {
+    --color-white: black;
+    --color-main: rgb(50, 50, 50);
+    --color-main-yellow: #332f0e;
+    --color-main-red: #3f0505;
+    --color-main-green: #043804;
+    --color-icon: #c90808;
+
+    --font-family-open-sans: metalFont;
+    --anchor-to-eventpage-background-color: var(--color-main);
+
+    --input-background-color: var(--color-main);
+    --font-color: #c90808;
+
+    --color-filterSearchButton: var(--color-main);
+}
+
+html {
+    font-size: 1.25em;
+}
